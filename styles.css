@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(97, 152, 168);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: white;
+}
+
+nav {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.jumbotron {
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("imgs/action-adult-care-339620.png");
+    background-position: center center;
+    background-size: cover;
+    min-height: 330px;
+}
+
+.jumbotron>h3 {
+    color: white;
+    margin-top: 5%;
+}
+
+.social {
+    font-size: 1.5em;
+}
+
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('fonts/roboto-v20-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-v20-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('fonts/roboto-v20-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-v20-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('fonts/roboto-v20-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/roboto-v20-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
